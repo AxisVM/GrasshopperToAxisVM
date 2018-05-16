@@ -1,0 +1,10 @@
+C:\Users\kitti\source\repos\GHtoAxisVM\GHtoAxisVM\bin\GHtoAxisVM.dll
+C:\Users\kitti\source\repos\GHtoAxisVM\GHtoAxisVM\bin\GHtoAxisVM.pdb
+C:\Users\kitti\source\repos\GHtoAxisVM\GHtoAxisVM\obj\Debug\GHtoAxisVM.csprojResolveAssemblyReference.cache
+C:\Users\kitti\source\repos\GHtoAxisVM\GHtoAxisVM\obj\Debug\Interop.AxisVM.dll
+C:\Users\kitti\source\repos\GHtoAxisVM\GHtoAxisVM\obj\Debug\GHtoAxisVM.csproj.ResolveComReference.cache
+C:\Users\kitti\source\repos\GHtoAxisVM\GHtoAxisVM\obj\Debug\GHtoAxisVM.Properties.Resources.resources
+C:\Users\kitti\source\repos\GHtoAxisVM\GHtoAxisVM\obj\Debug\GHtoAxisVM.csproj.GenerateResource.Cache
+C:\Users\kitti\source\repos\GHtoAxisVM\GHtoAxisVM\obj\Debug\GHtoAxisVM.csproj.CoreCompileInputs.cache
+C:\Users\kitti\source\repos\GHtoAxisVM\GHtoAxisVM\obj\Debug\GHtoAxisVM.dll
+C:\Users\kitti\source\repos\GHtoAxisVM\GHtoAxisVM\obj\Debug\GHtoAxisVM.pdb

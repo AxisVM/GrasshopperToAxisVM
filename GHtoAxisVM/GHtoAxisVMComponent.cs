@@ -164,7 +164,7 @@ namespace GHtoAxisVM
 
         public override Guid ComponentGuid => new Guid("a72bd44d-e230-4e0b-9cc8-7f6dcea0e29a"); 
 
-        protected override Bitmap Icon => Properties.Resources.icAxMemb;
+        protected override Bitmap Icon => Properties.Resources.icAxMembPar;
 
         public override GH_Exposure Exposure => GH_Exposure.secondary;
 

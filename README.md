@@ -1,4 +1,4 @@
-![alt text](https://github.com/AxisVM/GrasshopperToAxisVM/blob/master/Documentation/images/main%20logo.png)
+![alt text](https://github.com/AxisVM/GrasshopperToAxisVM/blob/master/Documentation/images/AxisVM%20logo.bmp)
 # Grasshopper to AxisVM with *AxisVM Export*
 
 The *AxisVM Export* Grasshopper plugin enables creating structural models and exports them to [AxisVM](www.axisvm.eu) structural analysis and design software. 

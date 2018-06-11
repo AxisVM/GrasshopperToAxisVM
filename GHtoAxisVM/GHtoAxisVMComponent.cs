@@ -164,7 +164,7 @@ namespace GHtoAxisVM
 
         public override Guid ComponentGuid => new Guid("a72bd44d-e230-4e0b-9cc8-7f6dcea0e29a"); 
 
-        protected override Bitmap Icon => Properties.Resources.icAxMembPar;
+        protected override Bitmap Icon => Properties.Resources.icAxMemb;
 
         public override GH_Exposure Exposure => GH_Exposure.secondary;
 
@@ -373,6 +373,7 @@ namespace GHtoAxisVM
             RPoint3d exc = new RPoint3d { x = 0, y = 0, z = 0 };
             int IDs = -1;
             int IDe = -1;
+            int notValidLineCount = 0; //... ezt meg kell ugy csinalni, mint a ExportLine-nal?
             for (int i = 0; i < mb.Count; i++)
             {
                 IDs = GetPointID(pt, mb[i].Value.Ln.From, 0.001);

@@ -79,11 +79,21 @@ namespace GHtoAxisVM
             //Show AxisVM GUI and setup AxisVM to remain opened when COM client finished
             AxApp.CloseOnLastReleased = ELongBoolean.lbFalse; //Axis doesn't exit when script finishes
             AxApp.AskCloseOnLastReleased = ELongBoolean.lbFalse; //Show close dialog before exit
-            AxApp.Visible = ELongBoolean.lbFalse; //set on lbFalse can improve speed
+            AxApp.Visible = ELongBoolean.lbFalse; //set on lbFalse can improve speed           
+
+            //Check if COM client is loaded, otherwise wait until loaded
+            int k = 0;
+            ELongBoolean loaded = ELongBoolean.lbFalse;
+            while ((k < 30) && (loaded == ELongBoolean.lbFalse))
+            {
+                k++;
+                System.Threading.Thread.Sleep(2 * 1000); //wait for 2 sec, total waiting time is limited to 1 minute
+                loaded = ((IAxisVMApplication)AxApp).Loaded;
+            }
 
             //Create new model
             AxModels = AxApp.Models;
-            AxModel = AxModels.Item[AxModels.New()];
+            AxModel = AxModels.Item[1];
 
             //create nodes
             AxNodes = AxModel.Nodes;
@@ -290,9 +300,19 @@ namespace GHtoAxisVM
             AxApp.AskCloseOnLastReleased = ELongBoolean.lbFalse; //Show close dialog before exit
             AxApp.Visible = ELongBoolean.lbFalse; //set on lbFalse can improve speed
 
+            //Check if COM client is loaded, otherwise wait until loaded
+            int k = 0;
+            ELongBoolean loaded = ELongBoolean.lbFalse;
+            while ((k < 30) && (loaded == ELongBoolean.lbFalse))
+            {
+                k++;
+                System.Threading.Thread.Sleep(2 * 1000); //wait for 2 sec, total waiting time is limited to 1 minute
+                loaded = ((IAxisVMApplication)AxApp).Loaded;
+            }
+
             //Create new model
             AxModels = AxApp.Models;
-            AxModel = AxModels.Item[AxModels.New()];
+            AxModel = AxModels.Item[1];
 
             //Create material
             code = ENationalDesignCode.ndcEuroCode; //currently limited to Eurocode

@@ -113,6 +113,16 @@ namespace GHtoAxisVM.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icFixedSupport {
+            get {
+                object obj = ResourceManager.GetObject("icFixedSupport", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icLineToAxis {
             get {
                 object obj = ResourceManager.GetObject("icLineToAxis", resourceCulture);
@@ -143,9 +153,9 @@ namespace GHtoAxisVM.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icNSupport {
+        internal static System.Drawing.Bitmap icSW {
             get {
-                object obj = ResourceManager.GetObject("icNSupport", resourceCulture);
+                object obj = ResourceManager.GetObject("icSW", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

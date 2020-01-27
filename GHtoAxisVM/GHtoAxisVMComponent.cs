@@ -731,7 +731,7 @@ namespace GHtoAxisVM
 
         public override Guid ComponentGuid => new Guid("ed775a9b-87b1-4b4a-9151-8ad66d2c2cc4");
 
-        protected override Bitmap Icon => Properties.Resources.icNSupport;
+        protected override Bitmap Icon => Properties.Resources.icFixedSupport;
 
         public override GH_Exposure Exposure => GH_Exposure.tertiary;
 
@@ -941,13 +941,13 @@ namespace GHtoAxisVM
     {
 
         public AxSelfWeightComp() :
-            base("Nodal load", "Nodal load", "create nodal load", "AxisVM", "Load")
+            base("Self-weight", "Self-weight", "Add self-weight to elements", "AxisVM", "Load")
         {
         }
 
         public override Guid ComponentGuid => new Guid("efc69d9e-6f22-4271-b52f-ea33947f1839");
 
-        protected override Bitmap Icon => Properties.Resources.icNLoad;
+        protected override Bitmap Icon => Properties.Resources.icSW;
 
         public override GH_Exposure Exposure => GH_Exposure.tertiary;
 

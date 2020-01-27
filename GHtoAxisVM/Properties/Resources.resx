@@ -133,6 +133,9 @@
   <data name="icAxShellPar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icAxShellPar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icFixedSupport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icFixedSupport.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icLineToAxis" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icLineToAxis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -142,7 +145,7 @@
   <data name="icNLoad" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icNLoad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icNSupport" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icNSupport.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icSW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

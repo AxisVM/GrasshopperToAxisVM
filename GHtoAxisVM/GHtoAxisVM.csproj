@@ -33,8 +33,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Interop.AxisVM.FW4">
-      <HintPath>..\..\..\..\..\..\Kitti\Axis\piaci\X4\Interop.AxisVM.FW4.dll</HintPath>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\..\Kitti\Axis\SVN\AxisVM\Interop.AxisVM.FW4.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -60,6 +60,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConvertFunctions.cs" />
     <Compile Include="GHtoAxisVMParameters.cs" />
     <Compile Include="GHtoAxisVMType.cs" />
     <Compile Include="GHtoAxisVMComponent.cs" />
@@ -88,6 +89,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icMembToAxis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icAxModel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icNLoad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icNSupport.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icAxDomain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\icAxShellPar.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

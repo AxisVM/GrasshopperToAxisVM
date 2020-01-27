@@ -63,6 +63,16 @@ namespace GHtoAxisVM.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icAxDomain {
+            get {
+                object obj = ResourceManager.GetObject("icAxDomain", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icAxMemb {
             get {
                 object obj = ResourceManager.GetObject("icAxMemb", resourceCulture);
@@ -83,6 +93,26 @@ namespace GHtoAxisVM.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icAxModel {
+            get {
+                object obj = ResourceManager.GetObject("icAxModel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icAxShellPar {
+            get {
+                object obj = ResourceManager.GetObject("icAxShellPar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icLineToAxis {
             get {
                 object obj = ResourceManager.GetObject("icLineToAxis", resourceCulture);
@@ -96,6 +126,26 @@ namespace GHtoAxisVM.Properties {
         internal static System.Drawing.Bitmap icMembToAxis {
             get {
                 object obj = ResourceManager.GetObject("icMembToAxis", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icNLoad {
+            get {
+                object obj = ResourceManager.GetObject("icNLoad", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icNSupport {
+            get {
+                object obj = ResourceManager.GetObject("icNSupport", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

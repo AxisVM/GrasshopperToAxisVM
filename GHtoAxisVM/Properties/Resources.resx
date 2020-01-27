@@ -118,16 +118,31 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="icAxDomain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icAxDomain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icAxMemb" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icAxMembPar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icAxMembPar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icAxMemb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icAxModel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icAxModel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icAxShellPar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icAxShellPar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icLineToAxis" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icLineToAxis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icMembToAxis" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icMembToAxis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icNLoad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icNLoad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icNSupport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icNSupport.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

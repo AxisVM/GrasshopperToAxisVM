@@ -15,7 +15,7 @@ namespace GrassHopperToAxisVM.Components
         public BackgroundWorker bw1 = new BackgroundWorker();
         public TreeView TreeView1 = new TreeView();
         public string crs = null;
-        public GH_sec() : base("Crosssections", "axCrs", "Component for adding crossections to tree", "AxisVM", "Attr")
+        public GH_sec() : base("Cross Sections", "axCrs", "Component for selecting Cross Section", "AxisVM", "Attr")
         {
         
         }

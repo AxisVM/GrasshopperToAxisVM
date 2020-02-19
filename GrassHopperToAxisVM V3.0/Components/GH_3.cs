@@ -13,17 +13,17 @@ namespace GrassHopperToAxisVM
 {
     public class GH_3 : GH_Component
     {
-        public GH_3() : base("Meshes to Axis Surfaces", "axMesh", "Component for changing GH Meshes to Axis Surfaces", "AxisVM", "Base")
+        public GH_3() : base("Mesh to AxisVM Mesh", "axMesh", "Component for changing meshes to AxisVM meshes", "AxisVM", "Base")
         {
 
         }
 
         protected override void RegisterInputParams(GH_Component.GH_InputParamManager pManager)
         {
-            pManager.AddMeshParameter("Meshes", "Mesh", "Meshes To Convert to Axis Surfaces", GH_ParamAccess.list);
-            pManager.AddNumberParameter("Thickness","T","Thicnkess for Surfaces", GH_ParamAccess.item);
-            pManager.AddTextParameter("Material", "AxMat", "Material for Surfaces", GH_ParamAccess.item);
-            pManager.AddTextParameter("CrossSection", "AxCrs", "Crossection for Mesh  Edges", GH_ParamAccess.item);
+            pManager.AddMeshParameter("Meshes", "Mesh", "Meshes to convert", GH_ParamAccess.list);
+            pManager.AddNumberParameter("Thickness","T","Thicnkess [m] for Surfaces / Domains", GH_ParamAccess.item);
+            pManager.AddTextParameter("Material", "AxMat", "Material for Surfaces / Domains / Edges", GH_ParamAccess.item);
+            pManager.AddTextParameter("Cross Section", "AxCrs", "Cross Section for Mesh Edges", GH_ParamAccess.item);
             pManager[1].Optional = true;
             pManager[2].Optional = true;
             pManager[3].Optional = true;
@@ -31,7 +31,7 @@ namespace GrassHopperToAxisVM
 
         protected override void RegisterOutputParams(GH_Component.GH_OutputParamManager pManager)
         {
-            pManager.AddParameter(new AxisMeshParameter(), "AxisVM Mesh / Surface", "AxMesh", "Mesh with AxisVM parameters", GH_ParamAccess.list);
+            pManager.AddParameter(new AxisMeshParameter(), "AxisVM Mesh", "AxMesh", "Mesh with AxisVM parameters", GH_ParamAccess.list);
         }
 
         protected override void SolveInstance(IGH_DataAccess DA)

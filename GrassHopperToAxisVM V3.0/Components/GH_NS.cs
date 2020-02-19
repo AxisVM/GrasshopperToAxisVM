@@ -27,7 +27,7 @@ namespace GrassHopperToAxisVM
 
         protected override void RegisterOutputParams(GH_OutputParamManager pManager)
         {
-            pManager.AddParameter(new AxisNodeSupParameter(), "NodeSupport", "NS", "NodeSupport for AxisVM Podoubles", GH_ParamAccess.item);
+            pManager.AddParameter(new AxisNodeSupParameter(), "NodeSupport", "NS", "NodeSupport for AxisVM", GH_ParamAccess.item);
         }
 
         protected override void SolveInstance(IGH_DataAccess DA)

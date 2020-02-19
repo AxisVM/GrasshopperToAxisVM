@@ -27,7 +27,7 @@ namespace GrassHopperToAxisVM
         public AxisVMDomains axDomains = new AxisVMDomains();
         public AxisVMCalculation axiscalc = new AxisVMCalculation();
         public AxisVMWindows axwin = new AxisVMWindows();
-        public GrassHopperToAxisVMComponent(): base("GrassHopperToAxisVM", "Axis", "Component for exporting elements to AxisVM", "AxisVM", "Send")
+        public GrassHopperToAxisVMComponent(): base("GrasshopperToAxisVM", "AxisVM", "Component for exporting elements to AxisVM", "AxisVM", "Send")
         {
             AxApp.CloseOnLastReleased = ELongBoolean.lbFalse;
             AxApp.AskCloseOnLastReleased = ELongBoolean.lbTrue; // ez True volt
@@ -54,9 +54,9 @@ namespace GrassHopperToAxisVM
         {
             pManager.AddParameter(new AxisPointParameter(),"AxisVM Point", "AxPoint", "Points with AxisVM parameters", GH_ParamAccess.list);
             pManager.AddParameter(new AxisLineParameter(),"AxisVM Line", "AxLine", "Lines with AxisVM parameters", GH_ParamAccess.list);
-            pManager.AddParameter(new AxisMeshParameter(),"AxisVM Surface", "AxSurf", "Surface with AxisVM parameters", GH_ParamAccess.list);
-            pManager.AddParameter(new AxisMeshParameter(), "AxisVM Domain", "AxDom", "Meshes as AxisVM Domains", GH_ParamAccess.list);
-            pManager.AddParameter(new AxisMeshParameter(), "AxisVM Edges", "AxEdge", "Edges from Mesh to AxisVM lines", GH_ParamAccess.list);
+            pManager.AddParameter(new AxisMeshParameter(),"AxisVM Surface", "AxSurf", "AxisVM Meshes to AxisVM Surfaces", GH_ParamAccess.list);
+            pManager.AddParameter(new AxisMeshParameter(), "AxisVM Domain", "AxDom", "AxisVM Meshes to AxisVM Domains ", GH_ParamAccess.list);
+            pManager.AddParameter(new AxisMeshParameter(), "AxisVM Edges", "AxEdge", "AxisVM Meshs' edges to AxisVM Lines / Beams", GH_ParamAccess.list);
             pManager[0].Optional = true;
             pManager[1].Optional = true;
             pManager[2].Optional = true;

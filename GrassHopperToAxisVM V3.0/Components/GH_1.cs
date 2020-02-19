@@ -11,14 +11,14 @@ namespace GrassHopperToAxisVM
 {
     public class GH_1 : GH_Component
     {
-        public GH_1() : base("Points to Axis Points", "axPoint", "Component for changing GH points to Axis Points", "AxisVM", "Base")
+        public GH_1() : base("Point to AxisVM Point", "axPoint", "Component for changing points to AxisVM points", "AxisVM", "Base")
         {
           
         }
 
         protected override void RegisterInputParams(GH_Component.GH_InputParamManager pManager)
         {
-            pManager.AddPointParameter("Point", "P", "PointList to convert", GH_ParamAccess.list);
+            pManager.AddPointParameter("Points", "P", "Points to convert", GH_ParamAccess.list);
             pManager.AddParameter(new AxisNodeSupParameter(),"NodeSupport", "NS", "Nodesupport", GH_ParamAccess.item);
             pManager[1].Optional = true;
         }

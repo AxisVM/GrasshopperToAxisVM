@@ -11,16 +11,16 @@ namespace GrassHopperToAxisVM
 {
     public class GH_2 : GH_Component
     {
-        public GH_2() : base("Lines to Axis lines", "axLine", "Component for changing GH lines to Axis lines", "AxisVM", "Base")
+        public GH_2() : base("Line to AxisVM Line", "axLine", "Component for changing lines to AxisVM lines", "AxisVM", "Base")
         {
 
         }
 
         protected override void RegisterInputParams(GH_Component.GH_InputParamManager pManager)
         {
-            pManager.AddLineParameter("Line", "L", "Line to convert", GH_ParamAccess.list);
+            pManager.AddLineParameter("Lines", "L", "Lines to convert", GH_ParamAccess.list);
             pManager.AddTextParameter("Material", "AxMat", "Material", GH_ParamAccess.item);
-            pManager.AddTextParameter("CrossSection", "AxCrs", "Crossection", GH_ParamAccess.item);
+            pManager.AddTextParameter("Cross Section", "AxCrs", "Cross Section", GH_ParamAccess.item);
             pManager[1].Optional = true;
             pManager[2].Optional = true;
         }

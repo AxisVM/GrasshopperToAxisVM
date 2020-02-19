@@ -15,7 +15,7 @@ namespace GrassHopperToAxisVM.Components
         public TreeView TreeView1 = new TreeView();
         public BackgroundWorker bw1 = new BackgroundWorker();
         public static string globbi = "S 235";
-        public GH_mat() : base("Materials", "axMat", "Component for adding materials to list", "AxisVM", "Attr")
+        public GH_mat() : base("Materials", "axMat", "Component for selecting Cross Section", "AxisVM", "Attr")
         { }
         protected override void RegisterInputParams(GH_Component.GH_InputParamManager pManager)
         {

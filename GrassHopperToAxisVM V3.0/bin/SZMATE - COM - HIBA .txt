@@ -1,2 +1,0 @@
-catalog.GetCrossSectionTableNamesEx((ECrossSectionShapeEx)i, out MatNames); 
- AxisVMCatalog catalog = new AxisVMCatalog();

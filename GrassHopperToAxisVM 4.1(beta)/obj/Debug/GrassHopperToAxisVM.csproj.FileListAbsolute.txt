@@ -284,3 +284,15 @@ C:\MATE\INTERC\fullsajat\M_A_I_N_3\GrassHopperToAxisVM 4_7_test\obj\Debug\GrassH
 C:\MATE\INTERC\fullsajat\M_A_I_N_3\GrassHopperToAxisVM 4_7_test\obj\Debug\GrassHopperToAxisVM.csproj.CopyComplete
 C:\MATE\INTERC\fullsajat\M_A_I_N_3\GrassHopperToAxisVM 4_7_test\obj\Debug\GrassHopperToAxisVM.dll
 C:\MATE\INTERC\fullsajat\M_A_I_N_3\GrassHopperToAxisVM 4_7_test\obj\Debug\GrassHopperToAxisVM.pdb
+C:\MATE\INTERC\FEJLESZTES\GITTER\GrassHopperToAxisVM 4.1(beta)\bin\GrassHopperToAxisVM.dll
+C:\MATE\INTERC\FEJLESZTES\GITTER\GrassHopperToAxisVM 4.1(beta)\bin\GrassHopperToAxisVM.pdb
+C:\MATE\INTERC\FEJLESZTES\GITTER\GrassHopperToAxisVM 4.1(beta)\bin\Interop.AxisVM.FW4.dll
+C:\MATE\INTERC\FEJLESZTES\GITTER\GrassHopperToAxisVM 4.1(beta)\obj\Debug\GrassHopperToAxisVM.csprojAssemblyReference.cache
+C:\MATE\INTERC\FEJLESZTES\GITTER\GrassHopperToAxisVM 4.1(beta)\obj\Debug\GrassHopperToAxisVM.Form1.resources
+C:\MATE\INTERC\FEJLESZTES\GITTER\GrassHopperToAxisVM 4.1(beta)\obj\Debug\GrassHopperToAxisVM.Form2.resources
+C:\MATE\INTERC\FEJLESZTES\GITTER\GrassHopperToAxisVM 4.1(beta)\obj\Debug\GrassHopperToAxisVM.Properties.Resource1.resources
+C:\MATE\INTERC\FEJLESZTES\GITTER\GrassHopperToAxisVM 4.1(beta)\obj\Debug\GrassHopperToAxisVM.csproj.GenerateResource.cache
+C:\MATE\INTERC\FEJLESZTES\GITTER\GrassHopperToAxisVM 4.1(beta)\obj\Debug\GrassHopperToAxisVM.csproj.CoreCompileInputs.cache
+C:\MATE\INTERC\FEJLESZTES\GITTER\GrassHopperToAxisVM 4.1(beta)\obj\Debug\GrassHopperToAxisVM.csproj.CopyComplete
+C:\MATE\INTERC\FEJLESZTES\GITTER\GrassHopperToAxisVM 4.1(beta)\obj\Debug\GrassHopperToAxisVM.dll
+C:\MATE\INTERC\FEJLESZTES\GITTER\GrassHopperToAxisVM 4.1(beta)\obj\Debug\GrassHopperToAxisVM.pdb

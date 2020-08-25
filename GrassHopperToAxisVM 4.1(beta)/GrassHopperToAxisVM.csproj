@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D610A2C4-B6EB-42C6-BA36-6F41F6FDCCDC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GrassHopperToAxisVM</RootNamespace>
+    <AssemblyName>GrassHopperToAxisVM</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.AxisVM.FW4, Version=15.401.0.0, Culture=neutral, PublicKeyToken=2e58e60b9e725b7f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>obj\Debug\Interop.AxisVM.FW4.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="RhinoCommon">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Rhino 6\System\rhinocommon.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Grasshopper">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Rhino 6\Plug-ins\Grasshopper\Grasshopper.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="GH_IO">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Rhino 6\Plug-ins\Grasshopper\GH_IO.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Components\GH_AxisData.cs" />
+    <Compile Include="Components\GH_mat.cs" />
+    <Compile Include="Components\LoadComps\GH_DAL.cs" />
+    <Compile Include="Components\LoadComps\GH_DDL.cs" />
+    <Compile Include="Components\LoadComps\GH_DLL.cs" />
+    <Compile Include="Components\LoadComps\GH_DSL.cs" />
+    <Compile Include="Components\LoadComps\GH_LC.cs" />
+    <Compile Include="Components\LoadComps\GH_NL.cs" />
+    <Compile Include="Components\GH_sec.cs" />
+    <Compile Include="Components\LoadComps\GH_SW.cs" />
+    <Compile Include="MAIN\GHToAxisVMDrawers1.cs" />
+    <Compile Include="Components\GH_NS.cs" />
+    <Compile Include="MAIN\GHToAxisVMDrawers2.cs" />
+    <Compile Include="MAIN\GHToAxisVMDrawers3.cs" />
+    <Compile Include="MAIN\GHToAxisVMDrawers3_JP.cs" />
+    <Compile Include="MAIN\GHToAxisVM_Data.cs" />
+    <Compile Include="MAIN\GHToAxisVM_GenMatSec.cs" />
+    <Compile Include="MAIN\GHToAxisVM_Initializer.cs" />
+    <Compile Include="MAIN\GHToAxisVM_Loads.cs" />
+    <Compile Include="MAIN\GHToAxisVM_SolveInstance.cs" />
+    <Compile Include="Components\GH_1.cs" />
+    <Compile Include="Components\GH_2.cs" />
+    <Compile Include="Components\GH_3.cs" />
+    <Compile Include="MAIN\GrassHopperToAxisVMComponent.cs" />
+    <Compile Include="MAIN\GrassHopperToAxisVMInfo.cs" />
+    <Compile Include="NET_extensions\convert.cs" />
+    <Compile Include="NET_extensions\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NET_extensions\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NET_extensions\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Types_Params\Load_types\struct_DAL.cs" />
+    <Compile Include="Types_Params\Load_types\struct_DDL.cs" />
+    <Compile Include="Types_Params\Load_types\struct_DLL.cs" />
+    <Compile Include="Types_Params\Load_types\struct_DSL.cs" />
+    <Compile Include="Types_Params\Load_types\struct_LC.cs" />
+    <Compile Include="Types_Params\Load_types\struct_NL.cs" />
+    <Compile Include="Types_Params\Load_types\struct_SW.cs" />
+    <Compile Include="Types_Params\STRUCTS.cs" />
+    <Compile Include="Types_Params\struct_axisdata.cs" />
+    <Compile Include="Types_Params\struct_AxNodeSupport.cs" />
+    <Compile Include="Types_Params\struct_crosss.cs" />
+    <Compile Include="Types_Params\struct_domains.cs" />
+    <Compile Include="Types_Params\struct_lines.cs" />
+    <Compile Include="Types_Params\struct_material.cs" />
+    <Compile Include="Types_Params\struct_meshs.cs" />
+    <Compile Include="Types_Params\struct_points.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="NET_extensions\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NET_extensions\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grasshopper.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icFixedSupport.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icNLoad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icParFixedSupport.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_AxSettings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_ParAxCrossSections.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_ParAxDomain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_ParAxLoadArea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_ParAxLoadCase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_ParAxLoadDistDomain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_ParAxLoadDistSurface.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_ParAxLoadLine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_ParAxLoadNodal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_ParAxLoadSelfWeight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_ParAxMaterials.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_ParAxMember.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_ParAxMesh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_ParAxPoint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_ParAxSettings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icAxMemb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icAxModel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mats.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\point.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\surf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hexagon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_AxCrossSections.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_AxDomain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_AxLoadArea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_AxLoadCase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_AxLoadDistDomain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_AxLoadDistSurface.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_AxLoadLine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_AxLoadNodal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_AxLoadSelfWeight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_AxMaterials.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_AxMember.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_AxMesh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_AxModel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_AxPoint.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>Copy "$(TargetPath)" "$(TargetDir)$(ProjectName).gha"
+Erase "$(TargetPath)"</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <FallbackCulture>en-US</FallbackCulture>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartProgram>C:\Program Files\Rhino 6\System\Rhino.exe</StartProgram>
+    <StartArguments>
+    </StartArguments>
+    <StartAction>Program</StartAction>
+  </PropertyGroup>
+</Project>
